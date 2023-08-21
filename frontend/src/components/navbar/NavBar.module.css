@@ -1,0 +1,34 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    background-color: #f1f1f1;
+    background-color: rgb(230, 230, 144);
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    width: 80%;
+    
+}   
+
+.header ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #000;
+}
